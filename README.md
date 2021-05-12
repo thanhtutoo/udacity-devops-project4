@@ -1,5 +1,4 @@
-<include a CircleCI status badge, here>
-
+[![thanhtutoo](https://circleci.com/gh/thanhtutoo/udacity-devops-project4.svg?style=svg)](https://github.com/thanhtutoo/udacity-devops-project4)
 ## Project Overview
 
 This project is prediction python app which is wrap with docker and kubernete.
