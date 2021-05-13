@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build docker') {
+      steps {
+        sh '          docker.build registry + ":$BUILD_NUMBER"'
+      }
+    }
+
   }
 }
